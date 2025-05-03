@@ -16,7 +16,7 @@ USE `TrabalhoUninter` ;
 show databases;
 
 -- -----------------------------------------------------
--- Table `TrabalhoUninter`.`Cliente`
+-- Tabela Cliente
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `TrabalhoUninter`.`Cliente` (
   `idCliente` INT NOT NULL,
@@ -242,5 +242,6 @@ INSERT INTO LocacaoVeiculo (Veiculo_idVeiculo, Locacao_idLocacao, Locacao_Client
   (10, 19, 5, 19),
   (8, 20, 1, 20);
   
-  
+  use Trabalhouninter;
+  select * from LocacaoVeiculo;
 
